@@ -2,7 +2,7 @@
 FROM mhart/alpine-node:10 as builder
 WORKDIR /app
 COPY package.json .
-COPY yarn.locl .n
+COPY yarn.lock .
 RUN yarn install --production && rm -rf  package.json yarn.lock
 
 # And then copy over node_modules, etc from that stage to the smaller base image
