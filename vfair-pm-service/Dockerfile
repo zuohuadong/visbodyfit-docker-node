@@ -9,6 +9,6 @@ RUN npm config set unsafe-perm true && \
 
 # And then copy over node_modules, etc from that stage to the smaller base image
 
-WORKDIR /var/www
+WORKDIR /app
 
 CMD ["pm2", "index.js"]
