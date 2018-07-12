@@ -7,8 +7,9 @@ COPY yarn.lock .
 RUN apk add --no-cache --virtual .fetch-deps \
       g++ \
       gcc && \
-    yarn install --production && rm -rf  package.json yarn.lock
-    
+    yarn install --production && rm -rf  package.json yarn.lock && \
+    apk del .fetch-deps
+
 RUN npm config set unsafe-perm true && \ 
     yarn global add pm2@latest && \
     pm2 install typescript
