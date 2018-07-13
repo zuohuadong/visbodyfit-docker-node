@@ -16,7 +16,7 @@
         "@nestjs/common": "^5.0.1",
         "@nestjs/core": "^5.0.1",
         "@nestjs/microservices": "^5.0.1",
-        "grpc": "^1.12.4",
+        "grpc": "^1.13.0",
         "moment": "^2.22.2",
         "reflect-metadata": "^0.1.12",
         "request": "^2.87.0",
