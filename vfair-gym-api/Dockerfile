@@ -3,7 +3,10 @@ WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
 RUN apk add --no-cache --virtual .fetch-deps \
-    python2 &&\
+    python2 \
+    make \
+    g++ \
+    gcc && \
     npm install && rm -rf  package.json yarn.lock && \
     apk del .fetch-deps
 RUN npm config set unsafe-perm true && \ 
