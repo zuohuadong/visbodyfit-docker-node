@@ -90,6 +90,10 @@
   dependencies:
     "@types/babel-types" "*"
 
+"@types/bcryptjs@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@types/bcryptjs/-/bcryptjs-2.4.1.tgz#7fb63922b5b106edacdcfe084cd38850f78aacfc"
+
 "@types/body-parser@^1.17.0":
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.17.0.tgz#9f5c9d9bd04bb54be32d5eb9fc0d8c974e6cf58c"
@@ -4103,3 +4107,4 @@ zen-observable-ts@^0.8.9:
 zen-observable@^0.8.0:
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.8.tgz#1ea93995bf098754a58215a1e0a7309e5749ec42"
+
