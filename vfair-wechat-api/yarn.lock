@@ -1197,7 +1197,7 @@ graphql@^0.13.2:
   dependencies:
     iterall "^1.2.1"
 
-grpc@^1.12.4:
+grpc@^1.13.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/grpc/-/grpc-1.13.0.tgz#cbf884fa5e072edecb15ff019483db74b361e2c6"
   dependencies:
@@ -2899,3 +2899,4 @@ zen-observable-ts@^0.8.6:
 zen-observable@^0.8.0:
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.8.tgz#1ea93995bf098754a58215a1e0a7309e5749ec42"
+
