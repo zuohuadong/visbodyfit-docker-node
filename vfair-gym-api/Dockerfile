@@ -1,9 +1,11 @@
-FROM mhart/alpine-node:10
+FROM node:alpine
 WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
-RUN yarn install && rm -rf  package.json yarn.lock
-RUN apk add --no-cache python2
+RUN RUN apk add --no-cache --virtual .fetch-deps alpine-sdk \
+    yarn install && rm -rf  package.json yarn.lock && \
+    apk del .fetch-deps
+
 RUN npm config set unsafe-perm true && \ 
     yarn global add pm2@latest && \
     pm2 install typescript
