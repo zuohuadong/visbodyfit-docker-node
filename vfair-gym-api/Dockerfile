@@ -2,7 +2,7 @@ FROM node:alpine
 WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
-RUN RUN apk add --no-cache --virtual .fetch-deps alpine-sdk \
+RUN apk add --no-cache --virtual .fetch-deps alpine-sdk \
     yarn install && rm -rf  package.json yarn.lock && \
     apk del .fetch-deps
 
