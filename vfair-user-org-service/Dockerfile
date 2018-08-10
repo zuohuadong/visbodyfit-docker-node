@@ -7,7 +7,7 @@ RUN apk add --no-cache --virtual .fetch-deps \
     make \
     g++ \
     gcc && \
-    npm install && rm -rf  package.json yarn.lock && \
+    yarn install && rm -rf  package.json yarn.lock && \
     apk del .fetch-deps
 RUN npm config set unsafe-perm true && \ 
     yarn global add pm2@latest && \	 
