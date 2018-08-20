@@ -29,6 +29,7 @@
         "grpc": "^1.13.0-pre1",
         "jsonwebtoken": "^8.3.0",
         "moment": "^2.22.2",
+        "morgan": "^1.9.0",
         "passport": "^0.4.0",
         "passport-http-bearer": "^1.0.1",
         "passport-jwt": "^4.0.0",
