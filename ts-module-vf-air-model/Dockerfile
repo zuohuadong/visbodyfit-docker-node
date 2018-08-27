@@ -3,7 +3,7 @@ FROM mhart/alpine-node:10
 WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
-RUN yarn install --production && rm -rf  package.json yarn.lock && yarn install typescript@2.9.2
+RUN yarn install --production && rm -rf  package.json yarn.lock && yarn global install typescript@2.9.2
 # RUN npm config set unsafe-perm true && \ 
 #     yarn global add pm2@latest && \	 
 #     pm2 install typescript
