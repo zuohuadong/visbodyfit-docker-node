@@ -7,7 +7,7 @@ RUN apk add --no-cache --virtual .fetch-deps \
     make \
     g++ \
     gcc && \
-    yarn install --production && rm -rf  package.json yarn.lock && yarn global add typescript@2.9.2 && \
+    yarn install && rm -rf  package.json yarn.lock  && \
     apk del .fetch-deps
     
 # And then copy over node_modules, etc from that stage to the smaller base image
