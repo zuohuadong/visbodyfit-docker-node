@@ -20,7 +20,7 @@
         "chance": "^1.0.16",
         "grpc": "^1.13.0",
         "moment": "^2.22.1",
-        "mysql": "^2.15.0",
+        "mysql2": "^1.6.1",
         "reflect-metadata": "^0.1.12",
         "rxjs": "^6.1.0",
         "typeorm": "^0.2.5"
