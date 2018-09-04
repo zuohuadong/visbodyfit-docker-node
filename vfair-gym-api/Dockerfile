@@ -17,4 +17,4 @@ RUN apk --no-cache add tzdata ca-certificates git openssh-client&& \
 
 WORKDIR /app
 
-
+CMD [ "yarn","start" ]

@@ -16,3 +16,5 @@ RUN apk --no-cache add tzdata ca-certificates git openssh-client&& \
     echo -e "Host *\n\tStrictHostKeyChecking no\n" >>/root/.ssh/config && echo "nameserver 119.29.29.29" >>/etc/resolv.conf
 
 WORKDIR /app
+
+CMD [ "yarn","start" ]
