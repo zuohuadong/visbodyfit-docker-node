@@ -19,7 +19,6 @@ RUN apk --no-cache add tzdata ca-certificates git openssh-client&& \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/* && \
     rm /var/cache/apk/*
-    
 
 WORKDIR /app
 
