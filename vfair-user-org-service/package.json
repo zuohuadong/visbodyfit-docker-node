@@ -21,7 +21,7 @@
         "@nestjs/typeorm": "^5.2.2",
         "@notadd/addon-mailer": "^2.0.6",
         "apollo-server-express": "^2.1.0",
-        "bcrypt": "^3.0.1",
+        "bcryptjs": "^2.4.3",
         "graphql": "^14.0.2",
         "graphql-tools": "^4.0.1",
         "grpc": "^1.15.1",
@@ -34,7 +34,7 @@
         "xml2js": "^0.4.19"
     },
     "devDependencies": {
-        "@types/bcrypt": "^3.0.0",
+        "@types/bcryptjs": "^2.4.2",
         "@types/node": "^10.11.7",
         "@types/xml2js": "^0.4.2",
         "nodemon": "^1.18.4",
