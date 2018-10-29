@@ -1,7 +1,7 @@
 {
-    "name": "ts-module-vf-air-model",
+    "name": "vfair-model-service",
     "version": "1.0.0",
-    "description": "vf-air model",
+    "description": "VF-Air 模型服务",
     "scripts": {
         "start": "ts-node -r tsconfig-paths/register src/server.ts",
         "start:dev": "nodemon",

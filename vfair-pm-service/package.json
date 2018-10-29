@@ -1,7 +1,7 @@
 {
     "name": "vfair-pm-service",
     "version": "1.0.0",
-    "description": "vf-air pm",
+    "description": "VF-Air 产品管理服务",
     "scripts": {
         "start": "ts-node -r tsconfig-paths/register src/server.ts",
         "start:dev": "nodemon",
@@ -16,21 +16,34 @@
         "@grpc/proto-loader": "^0.3.0",
         "@nestjs/common": "^5.3.11",
         "@nestjs/core": "^5.3.11",
+        "@notadd/addon-mailer": "^2.0.1",
+        "@nestjs/graphql": "^5.2.2",
         "@nestjs/microservices": "^5.3.11",
         "@nestjs/typeorm": "^5.2.2",
+        "apollo-server-express": "^2.0.6",
+        "bcryptjs": "^2.4.3",
+        "chance": "^1.0.16",
+        "graphql": "^14.0.2",
+        "graphql-tools": "^3.1.1",
+        "graphql-type-json": "^0.2.1",
         "grpc": "^1.15.1",
         "moment": "^2.22.1",
         "mysql2": "^1.6.1",
         "reflect-metadata": "^0.1.12",
-        "rxjs": "^6.3.3",
-        "typeorm": "^0.2.5",
-        "typescript": "^3.1.3"
+        "rxjs": "^6.3.2",
+        "typeorm": "^0.2.5"
     },
     "devDependencies": {
-        "@types/node": "^10.12.0",
+        "@types/bcryptjs": "^2.4.2",
+        "@nestjs/testing": "^5.3.7",
+        "@types/bluebird": "^3.5.24",
+        "@types/chance": "^1.0.0",
+        "@types/node": "^10.10.1",
+        "@types/redis": "^2.8.6",
         "nodemon": "^1.18.4",
         "ts-node": "^7.0.1",
         "tsconfig-paths": "^3.6.0",
-        "tslint": "^5.10.0"
+        "tslint": "^5.10.0",
+        "typescript": "^3.0.3"
     }
 }

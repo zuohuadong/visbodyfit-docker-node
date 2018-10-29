@@ -1,7 +1,7 @@
 {
-    "name": "visfit-lite-wechat",
+    "name": "vfair-wechat-api",
     "version": "1.0.0",
-    "description": "VF-Air 公众号API",
+    "description": "VF-Air 微信端API",
     "scripts": {
         "start": "ts-node -r tsconfig-paths/register src/server.ts",
         "start:dev": "nodemon",

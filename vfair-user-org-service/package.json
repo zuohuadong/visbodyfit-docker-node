@@ -1,7 +1,7 @@
 {
-    "name": "visfit-lite-wechat",
+    "name": "vfair-user-org-service",
     "version": "1.0.0",
-    "description": "VF-Air 微信端后端，授权中心",
+    "description": "VF-Air 用户/组织服务",
     "scripts": {
         "start": "ts-node -r tsconfig-paths/register src/server.ts",
         "start:dev": "nodemon",
