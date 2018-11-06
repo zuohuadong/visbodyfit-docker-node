@@ -18,6 +18,8 @@
         "@nestjs/core": "^5.3.11",
         "@nestjs/microservices": "^5.3.11",
         "@nestjs/typeorm": "^5.2.2",
+        "cache-manager": "^2.9.0",
+        "cache-manager-ioredis": "^1.0.1",
         "grpc": "^1.15.1",
         "moment": "^2.22.1",
         "mysql2": "^1.6.1",
