@@ -11,7 +11,18 @@
     lodash "^4.17.5"
     protobufjs "^6.8.6"
 
-"@nestjs/common@^5.0.0", "@nestjs/common@^5.3.11":
+"@nestjs/common@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.npm.taobao.org/@nestjs/common/download/@nestjs/common-5.5.0.tgz#6427d440f96e23c38945620fd74cb6ec61da8224"
+  integrity sha1-ZCfUQPluI8OJRWIP10y27GHagiQ=
+  dependencies:
+    axios "0.18.0"
+    cli-color "1.2.0"
+    deprecate "1.0.0"
+    multer "1.3.0"
+    uuid "3.3.2"
+
+"@nestjs/common@^5.0.0":
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-5.4.0.tgz#74aa7da0d6931349b0a2cbe813b83ad77c2797ec"
   dependencies:
@@ -21,7 +32,23 @@
     multer "1.3.0"
     uuid "3.3.2"
 
-"@nestjs/core@^5.0.0", "@nestjs/core@^5.3.11":
+"@nestjs/core@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.npm.taobao.org/@nestjs/core/download/@nestjs/core-5.5.0.tgz#4f80bcfda1b964a6e1702c32f0afcbcc4a1706f7"
+  integrity sha1-T4C8/aG5ZKbhcCwy8K/LzEoXBvc=
+  dependencies:
+    "@nuxtjs/opencollective" "0.1.0"
+    body-parser "1.18.3"
+    cors "2.8.4"
+    express "4.16.3"
+    fast-safe-stringify "1.2.0"
+    iterare "0.0.8"
+    object-hash "1.3.0"
+    optional "0.1.4"
+    path-to-regexp "2.2.1"
+    uuid "3.3.2"
+
+"@nestjs/core@^5.0.0":
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-5.4.0.tgz#0c082ef019b5e435a9330feb3fe0101f3978af4e"
   dependencies:
@@ -43,9 +70,10 @@
     "@types/jsonwebtoken" "^7.2.7"
     jsonwebtoken "^8.3.0"
 
-"@nestjs/microservices@^5.3.11":
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-5.4.0.tgz#5d12743e521a5b927409969c6f629d2d98e96ea8"
+"@nestjs/microservices@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.npm.taobao.org/@nestjs/microservices/download/@nestjs/microservices-5.5.0.tgz#9fd6ef84dd1ccc955aed6fac910be874cbd9a1a8"
+  integrity sha1-n9bvhN0czJVa7W+skQvodMvZoag=
   dependencies:
     iterare "0.0.8"
     json-socket "^0.2.1"
