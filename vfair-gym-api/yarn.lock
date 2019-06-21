@@ -1404,10 +1404,10 @@ graphql-tag@^2.9.2:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.10.0.tgz#87da024be863e357551b2b8700e496ee2d4353ae"
 
-graphql-tools@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-4.0.1.tgz#c995a4e25c2967d108c975e508322d12969c8c0e"
-  integrity sha512-yyUTS875FLt9RgTFZ8XbOvJE7iFkNdmUDhHNgAcJnCrS9dwmbfVYGEQ00u0UGyQF0zvuI7QzRh5TqbnO7ueLxw==
+graphql-tools@4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-4.0.5.tgz#d2b41ee0a330bfef833e5cdae7e1f0b0d86b1754"
+  integrity sha512-kQCh3IZsMqquDx7zfIGWBau42xe46gmqabwYkpPlCLIjcEY1XK+auP7iGRD9/205BPyoQdY8hT96MPpgERdC9Q==
   dependencies:
     apollo-link "^1.2.3"
     apollo-utilities "^1.0.1"

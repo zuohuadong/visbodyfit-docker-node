@@ -23,7 +23,7 @@
         "apollo-server-express": "2.1.0",
         "bcryptjs": "2.4.3",
         "graphql": "14.0.2",
-        "graphql-tools": "4.0.1",
+        "graphql-tools": "4.0.5",
         "grpc": "1.15.1",
         "moment": "2.22.2",
         "mysql2": "1.6.1",
