@@ -20,7 +20,7 @@
         "@nestjs/microservices": "5.3.11",
         "@nestjs/typeorm": "5.2.2",
         "@notadd/addon-mailer": "2.0.6",
-        "apollo-server-express": "2.1.0",
+        "apollo-server-express": "2.6.9",
         "bcryptjs": "2.4.3",
         "chance": "1.0.16",
         "graphql": "14.0.2",
