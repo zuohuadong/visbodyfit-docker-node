@@ -48,7 +48,7 @@
     "@types/morgan": "1.7.36",
     "@types/node": "10.9.4",
     "@types/request": "2.47.1",
-    "@types/underscore": "1.8.9",
+    "@types/underscore": "1.9.3",
     "nodemon": "1.18.9",
     "ts-node": "7.0.1",
     "tsconfig-paths": "3.6.0"
