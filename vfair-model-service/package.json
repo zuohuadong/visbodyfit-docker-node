@@ -21,7 +21,7 @@
         "cache-manager": "2.10.0",
         "cache-manager-ioredis": "1.0.1",
         "grpc": "1.23.3",
-        "moment": "2.22.2",
+        "moment": "2.24.0",
         "mysql2": "1.6.1",
         "reflect-metadata": "0.1.12",
         "rxjs": "6.3.3",
