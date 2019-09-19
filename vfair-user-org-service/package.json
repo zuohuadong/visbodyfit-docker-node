@@ -18,7 +18,7 @@
         "@nestjs/core": "5.3.11",
         "@nestjs/graphql": "5.4.0",
         "@nestjs/microservices": "5.3.11",
-        "@nestjs/typeorm": "5.2.2",
+        "@nestjs/typeorm": "5.3.0",
         "@notadd/addon-mailer": "2.0.6",
         "apollo-server-express": "2.1.0",
         "bcryptjs": "2.4.3",
