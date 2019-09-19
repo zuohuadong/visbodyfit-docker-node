@@ -24,7 +24,7 @@
         "bcryptjs": "2.4.3",
         "graphql": "14.0.2",
         "graphql-tools": "4.0.1",
-        "grpc": "1.15.1",
+        "grpc": "1.23.3",
         "moment": "2.22.2",
         "mysql2": "1.6.1",
         "reflect-metadata": "0.1.12",
