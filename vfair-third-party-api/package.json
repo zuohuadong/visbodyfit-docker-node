@@ -16,7 +16,7 @@
         "fix": "tslint -p tsconfig.json -c tslint.json --fix"
     },
     "dependencies": {
-        "@grpc/proto-loader": "0.3.0",
+        "@grpc/proto-loader": "0.5.2",
         "@nestjs/common": "5.4.0",
         "@nestjs/core": "5.4.0",
         "@nestjs/jwt": "0.1.3",
