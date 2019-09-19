@@ -13,7 +13,7 @@
     "license": "Apache-2.0",
     "private": true,
     "dependencies": {
-        "@grpc/proto-loader": "0.3.0",
+        "@grpc/proto-loader": "0.5.2",
         "@nestjs/common": "5.3.11",
         "@nestjs/core": "5.3.11",
         "@nestjs/graphql": "5.4.0",

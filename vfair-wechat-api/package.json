@@ -13,7 +13,7 @@
     "license": "MIT",
     "private": false,
     "dependencies": {
-        "@grpc/proto-loader": "0.3.0",
+        "@grpc/proto-loader": "0.5.2",
         "@nestjs/common": "5.3.11",
         "@nestjs/core": "5.3.11",
         "@nestjs/graphql": "5.4.0",
