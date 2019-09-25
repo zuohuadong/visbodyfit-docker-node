@@ -22,7 +22,7 @@
         "@notadd/addon-mailer": "2.0.6",
         "apollo-server-express": "2.1.0",
         "bcryptjs": "2.4.3",
-        "graphql": "14.0.2",
+        "graphql": "14.5.8",
         "graphql-tools": "4.0.1",
         "grpc": "1.23.3",
         "moment": "2.22.2",
