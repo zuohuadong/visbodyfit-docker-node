@@ -40,7 +40,7 @@
     "devDependencies": {
         "@types/jsonwebtoken": "7.2.8",
         "@types/morgan": "1.7.36",
-        "@types/node": "10.12.2",
+        "@types/node": "10.14.21",
         "nodemon": "1.18.9",
         "ts-node": "7.0.1",
         "tsconfig-paths": "3.6.0",
